@@ -1,0 +1,64 @@
+.header {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #666666;
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    height: 450px;
+    width: 800px;
+}
+
+.content-left {
+    width: 30%;
+    height: 100%;
+    background-color: #cbcbcb;
+}
+
+.city-list {
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.city-name {
+    color: blue;
+}
+
+.content-right {
+    width: 70%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.name {
+    font-size: 50px;
+    padding-left: 52px;
+}
+
+.description {
+    padding: 0px 21px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.footer {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #666666;
+    color: white;
+    font-weight: 500;
+}
